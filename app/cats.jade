@@ -1,0 +1,21 @@
+extends layout
+block content
+  .page-container.secondary-page
+    .cats-side.side
+    .side-overlay
+    .container-fluid
+      .row
+        .col-md-offset-3.col-md-9.header
+          h1
+            a(href="/").pull-right BACK
+            | 招き猫
+      .row
+        .col-md-offset-3.col-md-9
+          h2 Choose Kitties for Science!
+      .row.cat-comparison
+        .col-md-offset-3.col-md-4
+          img.cat(src= "http://scienceblogs.com/gregladen/files/2012/12/Beautifull-cat-cats-14749885-1600-1200.jpg")
+        .col-md-1.vs
+          | VS
+        .col-md-4
+          img.cat(src= "http://scienceblogs.com/gregladen/files/2012/12/Beautifull-cat-cats-14749885-1600-1200.jpg")

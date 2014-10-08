@@ -1,0 +1,30 @@
+extends layout
+block content
+  .page-container
+    .container-fluid
+      .row
+        .col-md-3
+          .main-block.printers-block(data-link="/printers.html")
+            .lead PRINTERS
+            //- ul
+            //-   li Ultimaker 1: ONLINE
+            //-   li Ultimaker 2: ONLINE
+        .col-md-6
+          .main-block.audio-block(data-link="/audio.html")
+            .lead
+              | AUDIO
+              .btn.btn-primary.pull-right STOP THE MUSIC
+        .col-md-3
+          .main-block.transport-block(data-link="/transport.html")
+            .lead TRANSPORT
+      .row
+        .col-md-6
+          .main-block.news-block(data-link="/feed.html")
+            .lead FEED
+
+        .col-md-2
+          .main-block.cats-block(data-link="/cats.html")
+            .lead 招き猫
+        .col-md-4
+          .main-block.power-block(data-link="/power.html")
+            .lead POWER

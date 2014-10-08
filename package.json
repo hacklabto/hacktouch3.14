@@ -1,0 +1,25 @@
+{
+  "author": "Hacklab",
+  "name": "hacktouch",
+  "description": "HackTouch",
+  "version": "0.0.0",
+  "scripts": {
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "lodash": "*",
+    "sugar": "*",
+    "jade-brunch": "~1.7",
+    "static-jade-brunch": "~1.7",
+    "javascript-brunch": "~1.7",
+    "coffee-script-brunch": "~1.7",
+    "css-brunch": "~1.7",
+    "sass-brunch": "~1.7",
+    "less-brunch": "~1.7",
+    "uglify-js-brunch": "~1.7",
+    "clean-css-brunch": "~1.7",
+    "stylus-brunch": "~1.8",
+    "auto-reload-brunch": "~1.7"
+  },
+  "devDependencies": {}
+}

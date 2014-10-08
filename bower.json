@@ -1,0 +1,22 @@
+{
+  "name": "hacktouch",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "*",
+    "bootstrap-stylus": "*",
+    "jquery": "*"
+  },
+  "overrides": {
+    "socket.io-client": {
+      "main": "socket.io.js"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+doctype
+html(ng-app="teghApp", ng-csp="")
+  head
+    meta(charset='utf-8')
+    title HackTouch
+    meta(name='description', content='')
+    meta(name='author', content='')
+    //- Mobile Specific
+    //- meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    //- CSS
+    link(rel='stylesheet', href='css/app.css')
+
+  body
+    .hacktouch-version HACKTOUCH 3.14
+
+    block content
+
+    .eight.hide
+      .text 8
+
+    script(src='js/vendor.js')
+    script(src='js/app.js')

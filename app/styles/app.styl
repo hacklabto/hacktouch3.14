@@ -1,0 +1,83 @@
+@import "../../bower_components/bootstrap-stylus/stylus/bootstrap"
+// @import "../../bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css"
+// @import "../../vendor/bootstrap-jasny-extend/css/jasny-bootstrap.css"
+// @import "../../vendor/font-awesome.css"
+
+// color pallette: http://paletton.com/#uid=13u0u0kmUQCbKXghTTZrKMqBeGF
+
+// Font Awesome Bootstrap Compatibility Hacks
+[class^="fa-"], [class*=" fa-"]
+  background-image none
+  padding-right 0.1em
+  line-height inherit
+
+.btn [class^="fa-"], [class*=" fa-"]
+  line-height 1em
+
+.btn .caret
+  margin-left: 5px
+
+// Main Page
+
+body
+  background: #444
+  display: flex
+  flex-direction: column
+  justify-content: center
+  width: 100%
+
+body, html
+  height: 100%
+  overflow: hidden
+
+.page-container
+  background: white
+  flex: none
+  width: 100%
+
+
+  .row:last-child
+    margin-bottom: 30px
+
+.side-overlay, .side
+  position: absolute
+  top: 50%
+  width: 100%
+  margin-top: -300px
+  height 614px
+
+.side-overlay
+  background white
+  width 75%
+  right 0px
+
+.secondary-page
+  height 600px
+
+.header
+  background #A0D5F4
+
+h1
+  font-size 300%
+  margin 0
+  line-height 1.4
+
+h2
+  color #BBB
+  font-size 50px
+
+.hacktouch-version
+  font-size: 30px
+  color #686868
+  position absolute
+  right 20px
+  bottom 0px
+
+@import "./main"
+@import "./audio"
+@import "./cats"
+@import "./eight"
+@import "./printers"
+@import "./transport"
+@import "./feed"
+@import "./power"
