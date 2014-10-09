@@ -14,4 +14,4 @@ improvements, isohedral to the ramifications of the alternate solutioning.
 4. `bower install`
 5. To run in development mode, `brunch w --server`
 
-*Note: Requires hacklab_api access for some features; see https://github.com/hacklabto/hacktouch3.14*
+*Note: Requires hacklab_api access for some features; see https://github.com/hacklabto/hacklab_api*
